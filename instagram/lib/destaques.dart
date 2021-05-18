@@ -8,42 +8,42 @@ class Destaques extends StatelessWidget {
       child: Row(
         children: [
           Padding(
-            padding: EdgeInsets.only(left: 8, top: 0),
+            padding: EdgeInsets.only(left: 10, top: 5),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 CircleAvatar(
                   radius: 38,
-                  backgroundImage: AssetImage('images/devgirls_logo.png'),
+                  backgroundImage: AssetImage('images/site.png'),
                 ),
                 Text(".")
               ],
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(left: 8, top: 0),
+            padding: EdgeInsets.only(left: 10, top: 5),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 CircleAvatar(
                   radius: 38,
-                  backgroundImage: AssetImage('images/devgirls_logo.png'),
+                  backgroundImage: AssetImage('images/trio.jpg'),
                 ),
                 Text(".")
               ],
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(left: 8, top: 0),
+            padding: EdgeInsets.only(left: 10, top: 5),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 CircleAvatar(
                   radius: 38,
-                  backgroundImage: AssetImage('images/devgirls_logo.png'),
+                  backgroundImage: AssetImage('images/frase.png'),
                 ),
                 Text(".")
               ],

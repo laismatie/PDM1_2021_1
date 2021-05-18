@@ -1,12 +1,26 @@
 import 'package:flutter/material.dart';
+import 'package:instagram/foto.dart';
 
 class Feed extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width,
-      child: Row(
-        children: [],
+      alignment: Alignment.topLeft,
+      child: Wrap(
+        children: [
+          Foto(),
+          Foto(),
+          Foto(),
+          Foto(),
+          Foto(),
+          Foto(),
+          Foto(),
+          Foto(),
+          Foto(),
+          Foto(),
+          Foto(),
+          Foto(),
+        ],
       ),
     );
   }
